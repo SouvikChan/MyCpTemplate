@@ -1,0 +1,62 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"boilerplate": {
+		"prefix": "boilerplate code",
+		"body": [
+			"//Author--- Souvik Chandra❤👍😎🎶",
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"#define ll long long",
+			"#define nl endl",
+			"#define pi (3.141592653589)",
+			"#define ld long double",
+            "#define sza(x) ((int)x.size())",
+            "#define all(a) (a).begin(), (a).end()",
+			"/******************************************************************************************/",
+			"#define fast ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);",
+			"#define input(a)     for(int i=0; i<a.size(); i++) cin>>a[i];",
+			"const int MAX_N = 1e5 + 5;",
+			"const int MOD = 1e9 + 7;",
+			"const int INF = 1e9;",
+			
+			"/******* Debugging Class Template *******/",
+			"template<typename A, typename B> ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << \", \" << p.second << ')'; }",
+			"template<typename T_container, typename T = typename enable_if<!is_same<T_container, string>::value, typename T_container::value_type>::type> ostream& operator<<(ostream &os, const T_container &v) { os << '{'; string sep; for (const T &x : v) os << sep << x, sep = \", \"; return os << '}'; }",
+			"void dbg_out() { cerr << endl; }",
+			"template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }",
+			"#ifdef LOCAL",
+			"#define dbg(...) cerr << \"(\" << #__VA_ARGS__ << \"):\", dbg_out(__VA_ARGS__)",
+			"#else",
+			"#define dbg(...)",
+			"#endif",
+			"/********************************************************************************************/",
+			"bool isPrime(int n)",
+			"{",
+			"// Corner case",
+			"if (n <= 1)",
+			"return false;",
+			"// Check from 2 to n-1",
+			"for (int i = 2; i < n; i++)",
+			"if (n % i == 0)",
+			"     return false;",
+			"return true;",
+			"}",
+			"//Leo Messi is the best, Love you messi",
+			"//Siiiiiiiiiiiiiiiiiiiiiiiiiiuuuuuuuuuuuuuuuuuu",
+			"int32_t main()",
+			"{",
+			"    int t;",
+			"    cin >> t;",
+			"    while (t--)",
+			"    {",
+			"       ;",
+			"    }",
+			"}",
+		],
+		"description": "This is a boilerplate",
+	}
+}
